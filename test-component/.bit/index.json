@@ -1,0 +1,34 @@
+[
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "compilers/stencil"
+    },
+    "isSymlink": false,
+    "hash": "bb32c092d935dd38700501135a476423f5be7960"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "common/compiler-types"
+    },
+    "isSymlink": false,
+    "hash": "9c86fadf101414c730daf20f3b3c0b3adcd84e79"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "common/get-capsule-name"
+    },
+    "isSymlink": false,
+    "hash": "26aefd5aeef44fe4baf09eb442719418744f2d7d"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "common/create-ts-compiler"
+    },
+    "isSymlink": false,
+    "hash": "62495d1e3be5d7a3799f216eb521ee924412b100"
+  }
+]

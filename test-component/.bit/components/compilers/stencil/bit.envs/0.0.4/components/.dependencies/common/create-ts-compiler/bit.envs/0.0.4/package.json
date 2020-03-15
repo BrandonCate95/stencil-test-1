@@ -1,0 +1,30 @@
+{
+  "name": "@bit/bit.envs.common.create-ts-compiler",
+  "version": "0.0.4",
+  "homepage": "https://bit.dev/bit/envs/common/create-ts-compiler",
+  "main": "dist/create-ts-compiler.js",
+  "dependencies": {
+    "execa": "^2.0.4",
+    "recursive-readdir": "^2.2.2",
+    "vinyl": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/recursive-readdir": "^2.2.0",
+    "@types/vinyl": "^2.0.3",
+    "@types/node": "^12.7.4",
+    "@types/mocha": "^5.2.7"
+  },
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/typescript@3.0.31"
+    },
+    "overrides": {
+      "devDependencies": {
+        "@types/node": "+",
+        "@types/mocha": "^5.2.7"
+      }
+    }
+  }
+}
